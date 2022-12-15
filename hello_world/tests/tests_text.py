@@ -1,9 +1,9 @@
 from django.test import TestCase
 
 from hello_world.utils.textUtils import (
-# festi.utils.text import (
+    # festi.utils.text import (
     ##extract_ip_addr_from_string, slugify,
-    split_name
+    split_name,
     ##strict_camelize,
     ##strip_prefix,
 )
@@ -22,6 +22,9 @@ class YourTestClass(TestCase):
         self.assertFalse(False)
 
     def test_something_that_will_fail(self):
+        self.assertTrue(False)
+
+    def test_something_that_will_fail2(self):
         self.assertTrue(False)
 
     # def test_split_name(self):
