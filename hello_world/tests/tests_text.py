@@ -27,6 +27,9 @@ class YourTestClass(TestCase):
     def test_something_that_will_fail2(self):
         self.assertTrue(False)
 
+    def test_something_that_will_fail3(self):
+        self.assertTrue(False)
+
     # def test_split_name(self):
     # self.assert split_name("  Agi  Pain  ") == ("Agi", "Pain")
     # assert split_name(" Agi  ") == ("Agi", "")
