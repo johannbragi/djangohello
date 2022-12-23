@@ -1,1 +1,3 @@
 # djangohello
+
+Some info here
